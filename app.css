@@ -1,0 +1,49 @@
+:root {
+    --tile-height: 1vh;
+    --tile-width: 1.958333333vw;
+    --border-width: 0px;
+}
+
+body {
+    background: #DDDDDD;
+}
+
+.form-data {
+    background: #DDDDDD;
+    display: flex;
+    padding: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#stones-in-a-row {
+    margin-right: 3vw;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3vw;
+    background: #DDDDDD;
+    padding-top: 0;
+}
+
+.flipped {
+    background: #AAAAAA;
+    height: var(--tile-height);
+    width: var(--tile-width);
+    box-sizing: border-box;
+    border: var(--border-width) solid #98b4d465;
+}
+
+.normal {
+    background: white;
+    height: var(--tile-height);
+    width: var(--tile-width);
+    box-sizing: border-box;
+    border: var(--border-width) solid #98b4d465;
+}
